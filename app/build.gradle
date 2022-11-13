@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'pl.nowoczesnyandroid.introtocompose'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "pl.nowoczesnyandroid.introtocompose"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -54,6 +54,9 @@ dependencies {
     implementation "androidx.compose.ui:ui:$compose_ui_version"
     implementation "androidx.compose.ui:ui-tooling-preview:$compose_ui_version"
     implementation 'androidx.compose.material:material:1.1.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.6.0-alpha03'
+    implementation 'androidx.lifecycle:lifecycle-runtime-compose:2.6.0-alpha03'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.0-alpha03'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
