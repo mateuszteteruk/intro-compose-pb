@@ -28,10 +28,12 @@ private fun SongItem(
     onSongClick: (Song) -> Unit,
     onFavouriteClick: (Song) -> Unit,
 ) {
-    Row(modifier = Modifier
-        .fillMaxWidth()
-        .clickable { onSongClick(song) }
-        .padding(all = 10.dp)) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clickable { onSongClick(song) }
+            .padding(all = 10.dp)
+    ) {
         Image(
             modifier = Modifier
                 .align(CenterVertically)
