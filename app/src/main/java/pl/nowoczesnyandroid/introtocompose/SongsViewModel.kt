@@ -1,4 +1,4 @@
-package pl.nowoczesnyandroid.introtocompose.ui
+package pl.nowoczesnyandroid.introtocompose
 
 import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

@@ -6,7 +6,6 @@ import androidx.activity.compose.setContent
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import pl.nowoczesnyandroid.introtocompose.ui.SongsScreen
 import pl.nowoczesnyandroid.introtocompose.ui.theme.IntroToComposeTheme
 
 class MainActivity : ComponentActivity() {

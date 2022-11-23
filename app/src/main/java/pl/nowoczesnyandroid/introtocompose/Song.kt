@@ -1,4 +1,4 @@
-package pl.nowoczesnyandroid.introtocompose.ui
+package pl.nowoczesnyandroid.introtocompose
 
 import java.util.UUID
 

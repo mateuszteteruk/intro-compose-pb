@@ -1,4 +1,4 @@
-package pl.nowoczesnyandroid.introtocompose.ui
+package pl.nowoczesnyandroid.introtocompose
 
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.ExperimentalAnimationApi
@@ -34,7 +34,6 @@ import androidx.lifecycle.compose.ExperimentalLifecycleComposeApi
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import kotlinx.coroutines.launch
-import pl.nowoczesnyandroid.introtocompose.R
 
 @OptIn(ExperimentalLifecycleComposeApi::class)
 @Composable
